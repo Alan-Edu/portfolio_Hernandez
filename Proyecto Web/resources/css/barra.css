@@ -1,0 +1,24 @@
+.centro {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 3rem;
+    --bs-gutter-y: 0;
+}
+
+.navbar{
+    --bs-navbar-padding-y: 0.3rem;
+}
+
+.dropdown-menu{
+    --bs-dropdown-padding-y: 0.3rem;
+}
+
+body{
+    background-image: url('../../img/edu6.jpeg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen en su posición */
+}
